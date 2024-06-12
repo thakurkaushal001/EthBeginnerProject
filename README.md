@@ -24,7 +24,7 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 *tokenSymbol(string):* This  gives a shortform for the token.(Token Symbol: Dot)
 
-*totalSupply(uint):* Data type used uint i.e only positive number, this gives the amount of token .(Initialised:20)
+*totalSupply(uint):* Data type used uint i.e only positive number, this gives the amount of token .(Initialised:30)
 
 ## - *Mapping*
 
