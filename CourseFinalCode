@@ -20,7 +20,7 @@ contract MyToken {
 
    string public tokenName = "simple";
    string public tokenSymbol = "dot";
-   uint public totalsupply = 0;
+   uint public totalsupply = 20;
 
  // mapping variable here
    
