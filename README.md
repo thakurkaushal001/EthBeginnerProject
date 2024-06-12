@@ -8,7 +8,7 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 # Characteristics:
 
-- Accessible variables to store information about tokens, such as name, abbreviation, and quantity available.
+- Accessible variables to store information about tokens, such as name, symbol , and quantity available.
 
 - Mapping for tracking the token balance of each address.
 
@@ -22,9 +22,9 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 *tokenName(string):* Data type used string for given a name to the token.(Token Name: Donut)
 
-*tokenAbbrv(string):* This  gives a shortform for the token.(Token Abbrev.: Dot)
+*tokenSymbol(string):* This  gives a shortform for the token.(Token Symbol: Dot)
 
-*totalSupply(uint):* Data type used uint i.e only positive number, this gives the amount of token .(Initialised:30)
+*totalSupply(uint):* Data type used uint i.e only positive number, this gives the amount of token .(Initialised:20)
 
 ## - *Mapping*
 
@@ -33,9 +33,9 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 ## - *Functions*
   
-*mint(address _ads, uint _amt):* This function adds the designated amount to the address's balance and raises the total token supply.
+*mint(address _ads, uint _value):* This function adds the designated amount to the address's balance and raises the total token supply.
 
-*burn(address_ads, uint_amt):*This function subtracts the specified amount from the address's balance and reduces the total token supply. Before continuing, it makes sure that the address's balance is more than or equal to the burnt.
+*burn(address_ads, uint_value):*This function subtracts the specified amount from the address's balance and reduces the total token supply. Before continuing, it makes sure that the address's balance is more than or equal to the burnt.
 
 # *Usage*
 
