@@ -20,7 +20,7 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 ## - *Variables Used*
 
-*tokenName(string):* Data type used string for given a name to the token.(Token Name: Donut)
+*tokenName(string):* Data type used string for given a name to the token.(Token Name: Simple)
 
 *tokenSymbol(string):* This  gives a shortform for the token.(Token Symbol: Dot)
 
