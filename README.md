@@ -35,7 +35,7 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
   
 *mint(address _address, uint _amount):* This function adds the designated amount to the address's balance and raises the total token supply.
 
-*burn(address_address, uint_value):*This function subtracts the specified amount from the address's balance and reduces the total token supply. Before continuing, it makes sure that the address's balance is more than or equal to the burnt.
+*burn(address_address, uint_amount):*This function subtracts the specified amount from the address's balance and reduces the total token supply. Before continuing, it makes sure that the address's balance is more than or equal to the burnt.
 
 # *Usage*
 
