@@ -20,7 +20,7 @@ contract MyToken {
 
    string public tokenName = "simple";
    string public tokenSymbol = "dot";
-   uint public totalsupply = 20;
+   uint public totalsupply = 30;
 
  // mapping variable here
    
@@ -28,24 +28,24 @@ contract MyToken {
 
   // mint function
 
-  function mint (address _ads , uint _amount) public {
+  function mint (address _address , uint _amount) public {
 
              totalsupply += _amount;
-             balances[_ads] += _amount;
+             balances[_address] += _amount;
 
   }
    // burn function
 
-   function burn (address _ads, uint _amount) public{
+   function burn (address _address, uint _amount) public{
 
 
-           if(balances[_ads] >= _amount) {
+           if(balances[_address] >= _amount) {
 
            
 
 
              totalsupply -= _amount;
-             balances[_ads] -= _amount;
+             balances[_address] -= _amount;
 
    }
 
