@@ -12,8 +12,7 @@ MyToken is a simple Solidity-implemented token contract that resembles an ERC20.
 
 - Mapping for tracking the token balance of each address.
 
-- A function with the required validations for creating new tokens and removing existing ones.
-
+- A function with the required validations for creating new tokens and removing existing ones .
 
 # Contract Details:
 
